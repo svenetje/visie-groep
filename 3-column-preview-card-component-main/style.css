@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.card {
+    width: 360px;
+    height: 420px;
+    padding: 50px 65px 50px 65px;
+    position: relative;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+h1 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Big Shoulders Display;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca',sans-serif;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Lexend Deca',sans-serif;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.knop_sedan {
+    color: hsl(31, 77%, 52%);;
+}
+
+.knop_sedan:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-style: solid;
+    border-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.knop_suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.knop_suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-style: solid;
+    border-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.knop_luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.knop_luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border-style: solid;
+    border-color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        flex-direction: row;
+    }
+    .card {
+        height: 470px;
+    }
+}
