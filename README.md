@@ -1,4 +1,5 @@
 # visie-groep
-3-column preview card #1
-stats preview card #2
-profile card #3
+#1 3-column preview card 
+#2 stats preview card 
+#3 profile card 
+#4 four card
